@@ -75,7 +75,7 @@ TODO
 TODO
 
 ## Detailed Documentation
-- [fixedpositmul pintool](https://github.com/COSys-Research/Fixed-Posit/blob/master/pintool/doc.md)
+- [fixedpositmul pintool](https://github.com/COSys-Research/Fixed-Posit/blob/master/pintool/README.md)
 - [Individual scripts](https://github.com/COSys-Research/Fixed-Posit/tree/master/scripts/docs)
 
 ## Contributors
