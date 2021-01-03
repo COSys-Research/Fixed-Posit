@@ -6,7 +6,7 @@ This repository contains code used in experiments of the paper "Fixed-Posit: A F
 
 The directory structure is as follows:
 - pintool: Contains the pintool that replaces single-precision IEEE-754 multiplications with fixed-posit multiplications
-- scripts: Contains various scripts used to tun experiments 
+- scripts: Contains various scripts used to run experiments 
 
 ## How to setup?
 - Download [Intel Pin](https://software.intel.com/content/www/us/en/develop/articles/pin-a-dynamic-binary-instrumentation-tool.html). Our pintool is tested with Pin 3.17.
