@@ -30,6 +30,9 @@ The pintool has 5 arguments:
 - l : To specify wheter to log the multiplication operands or not (default: 0). For this argument, 1 means log, 0 means don't log.
 - o : To specify the name of log file if we want to log the multiplication operands (default: operandlog.out)
 
+```diff
+- This tool is made for single-threaded workloads only
+```
 ### Format of generated log files
 <operand\_1> <operand\_2> <product of operand\_1 and operand\_2>
 
