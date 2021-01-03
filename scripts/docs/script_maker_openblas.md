@@ -25,3 +25,9 @@ This python script generates a shell script (`run_openblas_exps.sh`) in the benc
 
 We recommend not changing any other parameters in the script.
 
+## Naming Conventions
+### Result files / Output files of OpenBLAS benchmarks
+< benchmark >\_< bitwidth >\_< regime\_size >\_< exponent\_size >\_res.txt
+
+### Log files
+log\_< benchmark >\_< bitwidth >\_< regime\_size >\_< exponent\_size >.txt
