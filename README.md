@@ -23,3 +23,7 @@ cd $(PIN_HOME)/source/tools/pintool
 make
 # This would create a obj-intel64 or obj-ia32 folder with *.so files depending on your machine's architecture.
 ```
+
+## Contributors
+- [Sumit Walia](https://github.com/sumit-walia)
+- [Varun Gohil](https://github.com/varungohil)
