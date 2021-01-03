@@ -40,7 +40,7 @@ mkdir logs
 First, edit the `openblas_benchmark_path`, `pin_root`, `pintool_path`, `log_folder` variables in the scripts `script_maker_openblas.py` and `error_script_openblas.py` to point to the appropriate directories in your system.
 
 Next run the following:
-```
+```bash
 python3 script_maker_openblas.py
 # Running this would generate a shell script run_openblas_exps.sh in the benchmark directory of OpenBLAS 
 cd (OPENBLAS_PATH)/benchmark/
