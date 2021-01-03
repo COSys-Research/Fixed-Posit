@@ -45,6 +45,9 @@ python3 script_maker_openblas.py
 # Running this would generate a shell script run_openblas_exps.sh in the benchmark directory of OpenBLAS 
 cd (OPENBLAS_PATH)/benchmark/
 
+export OPENBLAS_NUM_THREADS=1
+# Since pintool only supports single-threaded applications 
+
 sh run_openblas_exps.sh
 # Running this shell scripts will run the fixedpositmul pintool with OpenBLAS benchmark and store the results and logs in outputs and logs folder respectively. 
 
@@ -54,6 +57,16 @@ python3 error_script_openblas.py
 
 The computed errors are reported in the generated `comphrehensive_error_openblas.csv` file.
 
+### How to get power?
+TODO
+
+### How to get area and delay?
+TODO
+
+## Detailed Documentation
+TODO
+- [fixedpositmul pintool]()
+- [Individual scripts]()
 
 ## Contributors
 - [Sumit Walia](https://github.com/sumit-walia)
