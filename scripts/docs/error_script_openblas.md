@@ -4,7 +4,7 @@ The script computes the errors in the results of benchmarks when running them wi
 It generates a file named _comphrehensive\_error\_openblas.csv_ to report the errors.
 
 ## Parameters
-- `output_path` : Set the variable to the pathto the directory containing the results of the OpenBLAS benchmarks.
+- `output_path` : Set the variable as the absolute path to the directory in which the results of the OpenBLAS benchmarks generated after running `script_maker_openblas.py` and `run_openblas_exps.sh` are stored.
 - `apps` : A list of benchmarks for which to compute the error. You can edit this list if you want to compute errors for more/less benchmarks.
 - `low_bitwidth` : The lowest bitwidth fixed-posit configuration you want to compute error for
 - `high_bitwidth` : The highest bitwidth fixed-posit configuration you want to compute error for
@@ -15,3 +15,5 @@ It generates a file named _comphrehensive\_error\_openblas.csv_ to report the er
 - `low_exponent_bits`: The lowest exponent size among the fixed-posit configurations you want to compute error for
 - `high_exponent_bits`: The highest exponent size among the fixed-posit configurations you want to compute error for
 - `exponent_step`: The difference of two successive exponent sizes in the list of your fixed-posit configurations
+
+We recommend not changing any other parameters in the script.
