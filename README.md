@@ -14,6 +14,9 @@ The directory structure is as follows:
 # Download this repo
 git clone https://github.com/COSys-Research/Fixed-Posit.git
 
+#Download this modified OpenBLAS repo 
+git clone https://github.com/varungohil/OpenBLAS.git
+
 # Copy the pintools folder inside Pin's tools folder
 # $PIN_HOME is set to the root directot of Intel Pin
 cp -r Fixed-Posit/pintool/ $(PIN_HOME)/source/tools/
