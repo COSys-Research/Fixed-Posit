@@ -14,4 +14,4 @@ This script generates verilog codes for the specified fixed-posit multipliers.
 - `step_regime`: The difference of two successive regime sizes in the list of fixed-posit configurations you want  to generate verilog code for.
 
 ## Naming Convention of generated Verilog files
- fxp\_<bitwidth>\_<exponent\_size>\_<regime\_size>.v
+ fxp_< bitwidth >\_< exponent\_size >\_< regime\_size >.v
