@@ -32,6 +32,7 @@ The pintool has 5 arguments:
 
 ### Format of generated log files
 <operand\_1> <operand\_2> <product of operand\_1 and operand\_2>
+
 All numbers of the trace are in single precision IEEE-754 format (type float)  
 
 ## Analysis Routine
