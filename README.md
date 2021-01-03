@@ -36,6 +36,24 @@ mkdir logs
 ```
 
 ## How to run?
+### How to get error?
+First, edit the `openblas_benchmark_path`, `pin_root`, `pintool_path`, `log_folder` variables in the scripts `script_maker_openblas.py` and `error_script_openblas.py` to point to the appropriate directories in your system.
+
+Next run the following:
+```
+python3 script_maker_openblas.py
+# Running this would generate a shell script run_openblas_exps.sh in the benchmark directory of OpenBLAS 
+cd (OPENBLAS_PATH)/benchmark/
+
+sh run_openblas_exps.sh
+# Running this shell scripts will run the fixedpositmul pintool with OpenBLAS benchmark and store the results and logs in outputs and logs folder respectively. 
+
+python3 error_script_openblas.py
+# Running this scripts will compute the average relative error for all workloads for all fixed-posit configurations.
+```
+
+The computed errors are reported in the generated `comphrehensive_error_openblas.csv` file.
+
 
 ## Contributors
 - [Sumit Walia](https://github.com/sumit-walia)
