@@ -11,9 +11,9 @@ log_folder      = "/home/manuawasthi/axbench/logs"
 
 
 ################# Fixed-Posit Params ############
-runFixedPosit = False
+runFixedPosit = True
 
-low_bitwidth = 10;
+low_bitwidth = 18;
 high_bitwidth = 32;
 bitwidth_step  = 2
 
