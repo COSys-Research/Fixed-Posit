@@ -81,7 +81,7 @@ python -m pip install -U scikit-image
 
 ## How to run?
 ### How to get error?
-First, edit the `openblas_benchmark_path`, `pin_root`, `pintool_path`, `log_folder` variables in the scripts `script_maker_openblas.py` and `error_script_openblas.py` to point to the appropriate directories in your system.
+For OpenBLAS, edit the `openblas_benchmark_path`, `pin_root`, `pintool_path`, `log_folder` variables in the scripts `script_maker_openblas.py` and `error_script_openblas.py` to point to the appropriate directories in your system.
 
 Next run the following:
 ```bash
@@ -100,6 +100,26 @@ python3 error_script_openblas.py
 ```
 
 The computed errors are reported in the generated `comphrehensive_error_openblas.csv` file.
+
+For AxBench, edit the `axbench_root`, `pin_root`, `pintool_path`, `log_folder` variables in the scripts `script_maker_openblas.py` and `error_script_openblas.py` to point to the appropriate directories in your system.
+
+Next run the following:
+```bash
+python3 script_maker_axbenchs.py
+# Running this would generate a shell script run_axbench_exps.sh 
+
+export OPENBLAS_NUM_THREADS=1
+# Since pintool only supports single-threaded applications 
+
+sh run_axbench_exps.sh
+# Running this shell scripts will run the fixedpositmul pintool with OpenBLAS benchmark and store the results and logs in outputs and logs folder respectively. 
+
+python3 error_script_axbench.py
+# Running this scripts will compute the average relative error for all workloads for all fixed-posit configurations.
+```
+
+The computed errors are reported in the generated `comphrehensive_error_axbench.csv` file.
+
 
 ### How to get power?
 TODO
