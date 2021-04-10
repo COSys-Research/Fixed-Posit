@@ -61,7 +61,7 @@ cp Fixed-Posit/scripts/qos_fft.py $(AXBENCH_PATH)/applications/fft/scripts/
 cp Fixed-Posit/scripts/qos_inversek2j.py $(AXBENCH_PATH)/applications/inversek2j/scripts/
 
 cd $(AXBENCH_PATH)/applications/
-sh compile.sh
+sh compile_axbench.sh
 
 cd ..
 
