@@ -51,7 +51,7 @@ mkdir openblas_logs
 ```
 
 To setup AxBench, execute the commands given below
-```
+```bash
 #Clone AxBench
 git clone https://bitbucket.org/act-lab/axbench.git
 
@@ -70,7 +70,7 @@ mkdir axbench_logs
 ```
 
 Install [bitstring python package](https://pypi.org/project/bitstring/). Required for generating Verilog codes for fixed-posit multiplier.
-```
+```bash
 pip3 install bitstring
 pip3 install opencv-python
 # Update pip
