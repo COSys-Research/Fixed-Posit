@@ -1,6 +1,6 @@
-# Documentation for script_maker_openblas.py
+# Documentation for script_maker_axbench.py
 
-This python script generates a shell script (`run_openblas_exps.sh`) in the benchmark folder of OpenBLAS which on execution runs the OpenBLAS workloads with fixedpositmul pintool for all specified fixed-posit configurations.
+This python script generates a shell script (`run_axbench_exps.sh`) which on execution runs the AxBench workloads with fixedpositmul pintool for all specified fixed-posit configurations.
 
 ## Parameters
 - `axbench_root` : Set the variable as the absolute path to the directory AxBench benchmark as per your system.
