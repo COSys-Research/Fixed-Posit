@@ -72,6 +72,11 @@ mkdir axbench_logs
 Install [bitstring python package](https://pypi.org/project/bitstring/). Required for generating Verilog codes for fixed-posit multiplier.
 ```
 pip3 install bitstring
+pip3 install opencv-python
+# Update pip
+python -m pip install -U pip
+# Install scikit-image
+python -m pip install -U scikit-image
 ```
 
 ## How to run?
