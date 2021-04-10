@@ -54,7 +54,7 @@ def RMSE(original, compressed):
 
 
 if __name__ == "__main__":
-    err_file = open("comphrehensive_error.csv","w")
+    err_file = open("comphrehensive_error_axbench.csv","w")
     err_file.write(f"Workload, Input, Error Metric")
     if runFixedPosit:
         for n in range(low_bitwidth, high_bitwidth+1, bitwidth_step):
