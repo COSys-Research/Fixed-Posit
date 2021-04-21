@@ -121,11 +121,11 @@ python3 error_script_axbench.py
 The computed errors are reported in the generated `comphrehensive_error_axbench.csv` file.
 
 
-### How to get power?
-TODO
-
 ### How to get area and delay?
-TODO
+Edit the variables in the script `multiplier_verilog_generator.py` to generate fixed-posit based multiplier's Verilog code. Pass generated Verilog code through synthesis tool (we have used Synopsys Design Compiler) to get area and delay when slack meets. Further, extract the design's netlist from synthesis tool to generate power.
+
+### How to get power?
+Pass the generated multiplier netlist and input traces of particular application through simulation tool (we have used VCS: Verilog code simulator) and generate Switching Activity Interchange Format (SAIF) file. Generate power by again using the Synopsys Design Compiler and pass netlist, SAIF file and set don't touch rule to check further optimization in the design.
 
 ## Detailed Documentation
 - [fixedpositmul pintool](https://github.com/COSys-Research/Fixed-Posit/blob/master/pintool/README.md)
