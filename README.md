@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains code used in experiments of the paper "Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications" published in IEEE Transactions on Circuits and Systems II.
+This repository contains code used in experiments of the paper ["Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications"](https://arxiv.org/abs/2104.04763) published in [IEEE Transactions on Circuits and Systems II](https://ieee-cas.org/pubs/tcas2).
 
 The directory structure is as follows:
 - pintool: Contains the pintool that replaces single-precision IEEE-754 multiplications with fixed-posit multiplications
