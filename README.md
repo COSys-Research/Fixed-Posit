@@ -141,7 +141,15 @@ Pass the generated multiplier netlist and input traces of particular application
 ## Citation
 If you use this repository, kindly cite our paper. The bibtex is given below:
 ```
-@ARTICLE{9399648,  author={Gohil, Varun and Walia, Sumit and Mekie, Joycee and Awasthi, Manu},  journal={IEEE Transactions on Circuits and Systems II: Express Briefs},   title={Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications},   year={2021},  volume={},  number={},  pages={1-1},  doi={10.1109/TCSII.2021.3072217}}
+@ARTICLE{9399648,
+  author={Gohil, Varun and Walia, Sumit and Mekie, Joycee and Awasthi, Manu},
+  journal={IEEE Transactions on Circuits and Systems II: Express Briefs}, 
+  title={Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSII.2021.3072217}}
 ```
 
 ## Contributors
