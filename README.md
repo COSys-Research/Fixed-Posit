@@ -1,5 +1,12 @@
 # Fixed-Posit
 
+- [Description](#description)
+- [How to Setup?](#how-to-setup)
+- [How to Run?](#how-to-run)
+- [Detailed Documentation](#detailed-documentation)
+- [Citation](#citation)
+
+
 ## Description
 
 This repository contains code used in experiments of the paper ["Fixed-Posit: A Floating-Point Representation for Error-Resilient Applications"](https://arxiv.org/abs/2104.04763) published in [IEEE Transactions on Circuits and Systems II](https://ieee-cas.org/pubs/tcas2).
