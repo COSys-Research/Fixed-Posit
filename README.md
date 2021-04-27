@@ -129,7 +129,11 @@ The computed errors are reported in the generated `comphrehensive_error_axbench.
 
 
 ### How to get area and delay?
-Edit the variables in the script `multiplier_verilog_generator.py` to generate fixed-posit based multiplier's Verilog code. Pass generated Verilog code through synthesis tool (we have used Synopsys Design Compiler) to get area and delay when slack meets. Further, extract the design's netlist from synthesis tool to generate power.
+One can generate the Verilog code for various configurations of fixed-posit multipliers using `multiplier_verilog_generator.py`. Edit all variables in `multiplier_verilog_generator.py` as per your needs and run the command below:
+```bash
+python multiplier_verilog_generator.py
+```
+Pass generated Verilog code through synthesis tool (we have used Synopsys Design Compiler) to get area and delay when slack meets. Further, extract the design's netlist from synthesis tool to generate power.
 
 ### How to get power?
 Pass the generated multiplier netlist and input traces of particular application through simulation tool (we have used VCS: Verilog code simulator) and generate Switching Activity Interchange Format (SAIF) file. Generate power by again using the Synopsys Design Compiler and pass netlist, SAIF file and set don't touch rule to check further optimization in the design.
